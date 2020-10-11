@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Book Shop</title>
+</head>
+
+<body onload="onInit()">
+    <h1>Book Shop</h1>
+    <section class="main-container">
+        <section class="add-book">
+            <h2>Add Book</h2>
+            <input type="text" name="name" placeholder="Name" />
+            <input type="number" name="price" placeholder="Price" />
+            <button onclick="onAddBook()">Add</button>
+        </section>
+        <table class="book-container">
+            <tbody></tbody>
+        </table>
+        <button onclick="onNextPage()">Next Page</button>
+        <div class="modal" hidden>
+        </div>
+    </section>
+
+    <script src="js/util-service.js"></script>
+    <script src="js/storage-service.js"></script>
+    <script src="js/service.js"></script>
+    <script src="js/controller.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightsalmon;
+    background-image: url(../img/book.jpg);
+}
+
+th, tr, td {
+border: 1px solid black;
+background-color: white;
+/* border-radius: 20px; */
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* width: 30%; */
+    margin: auto, 0;
+    
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+
+* button:hover{
+background-color: lightpink;
+}
+
+
+.modal {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    min-width: 300px;
+    text-align: center;
+}
+
+.rate-button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.rate-button button{
+    height: 20px;
+    border-radius: 20px;
+    background-color:white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
