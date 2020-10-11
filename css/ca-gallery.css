@@ -791,6 +791,15 @@ fieldset[disabled] .btn-xl:hover {
     
 }
 
+.form-group{
+    background-color: white;
+    color: pink;
+    border: 1px solid white;
+    text-align: center;
+   
+    
+}
+
 .form-button{
     border: 1px solid white;
 }
