@@ -21,7 +21,7 @@ var gProjects =
         title: "The Mine Sweeper Game",
         desc: "A Computer Game",
         url: "projs/minesweeper",
-        publishedAt: 1448693940000,
+        publishedAt: 'September 2020',
         webUrl: "https://daniellesibony.github.io/MineSweeeper/",
         labels: ["computer game"],
     },
@@ -33,8 +33,8 @@ var gProjects =
         title: "Read Some Books",
         desc: "A Book Store",
         url: "projs/bookshop",
-        publishedAt: 1448693940000,
-        webUrl: "https://daniellesibony.github.io/MineSweeeper/",
+        publishedAt: 'October 2020',
+        webUrl: "https://daniellesibony.github.io/BookShop/",
         labels: ["books"],
     },
 
@@ -45,8 +45,8 @@ var gProjects =
         title: "Play Pacman",
         desc: "A Computer Game",
         url: "projs/pacman",
-        publishedAt: 1448693940000,
-        webUrl: "https://daniellesibony.github.io/MineSweeeper/",
+        publishedAt: 'September 2020',
+        webUrl: "https://daniellesibony.github.io/pacman/",
         labels: ["computer game"],
 
     },
@@ -57,8 +57,8 @@ var gProjects =
         title: "Festival Ambassador",
         desc: "Become A Festival Ambassador",
         url: "projs/festivalambassador",
-        publishedAt: 1448693940000,
-        webUrl: "https://daniellesibony.github.io/MineSweeeper/",
+        publishedAt: 'October 2020',
+        webUrl: "https://daniellesibony.github.io/festivalambassador/",
         labels: ["ambassador program"],
 
     },
@@ -68,8 +68,8 @@ var gProjects =
         title: "List of Todos",
         desc: "Check Off Your Todo List",
         url: "projs/todos",
-        publishedAt: 1448693940000,
-        webUrl: "https://daniellesibony.github.io/MineSweeeper/",
+        publishedAt: 'October 2020',
+        webUrl: "https://daniellesibony.github.io/todos/",
         labels: ["lists"],
     }
     ]

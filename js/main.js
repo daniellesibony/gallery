@@ -17,7 +17,7 @@ function renderProjects() {
                         <i class="fa fa-plus fa-3x"></i>
                     </div>
                 </div>
-                <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+                <img class="img-fluid" src="img/${project.url}.png" alt="">
               </a>
                 <div class="portfolio-caption">
                     <h4>${project.title}</h4>
@@ -37,9 +37,9 @@ function renderModal(id) {
         <div class="modal-body">
                   <h2>${project.title}</h2>
                   <p class="item-intro text-muted">${project.name}</p>
-                  <button onclick="openProj('${project.webUrl}')" class="btn view-proj" type="button">
+                  <button onclick="openProj('${project.webUrl}')" type="button" class="btn btn-primary modal-button">
                     View Project</button>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/${project.url}.png" alt="">
                   <p> ${project.desc}</p>
                   <ul class="list-inline">
                     <li>Date: ${project.publishedAt}</li>
